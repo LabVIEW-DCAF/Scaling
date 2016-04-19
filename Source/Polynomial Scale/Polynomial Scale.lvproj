@@ -20,13 +20,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Scaling configuration.lvclass" Type="LVClass" URL="../module/configuration/Scaling configuration.lvclass"/>
-		<Item Name="Scaling editor node.lvclass" Type="LVClass" URL="../editor node/Scaling editor node.lvclass"/>
-		<Item Name="Scaling runtime.lvclass" Type="LVClass" URL="../module/execution/Scaling runtime.lvclass"/>
-		<Item Name="Scaling tests.lvlib" Type="Library" URL="../testing/Scaling tests.lvlib"/>
+		<Item Name="Dependencies" Type="Folder">
+			<Item Name="Scaling configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling/module/configuration/Scaling configuration.lvclass"/>
+			<Item Name="Scaling editor node.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling/editor node/Scaling editor node.lvclass"/>
+			<Item Name="Scaling runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF Modules/DCAF Scaling/module/execution/Scaling runtime.lvclass"/>
+		</Item>
+		<Item Name="Polynomial Scale configuration.lvclass" Type="LVClass" URL="../module/configuration/Polynomial Scale configuration.lvclass"/>
+		<Item Name="Polynomial Scale editor node.lvclass" Type="LVClass" URL="../editor node/Polynomial Scale editor node.lvclass"/>
+		<Item Name="Polynomial Scale runtime.lvclass" Type="LVClass" URL="../module/execution/Polynomial Scale runtime.lvclass"/>
+		<Item Name="Polynomial Scale tests.lvlib" Type="Library" URL="../testing/Polynomial Scale tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">1</Property>
 				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -133,9 +137,12 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="add channel to configuration.vi" Type="VI" URL="../module/configuration/add channel to configuration.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="rename channel.vi" Type="VI" URL="../module/configuration/rename channel.vi"/>
+			<Item Name="set channel.vi" Type="VI" URL="../module/configuration/set channel.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
