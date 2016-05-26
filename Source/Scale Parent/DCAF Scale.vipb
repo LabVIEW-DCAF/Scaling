@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-19 12:25:05" Modified_Date="2016-05-23 17:25:43" Creator="Matthew Pollock" Comments="" ID="c14d97d3d51d04a21a17c8862ddffd8b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-19 12:25:05" Modified_Date="2016-05-26 12:09:20" Creator="Matthew Pollock" Comments="" ID="e231d941258cff6d6d901947c2738ec6">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_DCAF_Scaling</Package_File_Name>
-    <Library_Version>1.0.5.22</Library_Version>
+    <Library_Version>1.0.5.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\export</Library_Output_Folder>
@@ -34,9 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Fixed bug in setting input and output data types
-Fixed unique scale name bug
-Minor editor UI updates</Release_Notes>
+      <Release_Notes>Replaced buttons with standard DCAF UI buttons</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
