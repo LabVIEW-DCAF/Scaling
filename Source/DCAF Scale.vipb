@@ -1,6 +1,6 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-19 12:25:05" Modified_Date="2016-07-18 14:08:00" Creator="Matthew Pollock" Comments="" ID="ee7c25fde434d8063b6426040eb7af9e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-19 12:25:05" Modified_Date="2016-07-19 22:53:32" Creator="Matthew Pollock" Comments="" ID="6376e0745fa0efc317822ad782eedd16">
   <Library_General_Settings>
-    <Package_File_Name>National_Instruments_lib_DCAF_Scaling</Package_File_Name>
+    <Package_File_Name>ni_lib_DCAF_Scaling_Framework</Package_File_Name>
     <Library_Version>1.0.7.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
