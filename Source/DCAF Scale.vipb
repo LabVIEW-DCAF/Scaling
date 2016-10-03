@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-19 12:25:05" Modified_Date="2016-07-27 11:53:26" Creator="Matthew Pollock" Comments="" ID="191bde64226c568ee302838f37b9e4ac">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-04-19 12:25:05" Modified_Date="2016-10-03 15:37:23" Creator="Matthew Pollock" Comments="" ID="84346bd46611b6c61be1d663fc1b1575">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_scaling_framework</Package_File_Name>
-    <Library_Version>1.0.7.27</Library_Version>
+    <Library_Version>1.0.8.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\export</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Fixed crosslinking bug</Release_Notes>
+      <Release_Notes>Added Boolean (0,1) support</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
